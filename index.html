@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="shortcut icon" href="images/x1.png" type="image/png">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body bgcolor="#980000">
+
+<div id="navbar">
+<a href="index.html" class="link">Главная</a>
+<a href="gallery.html" class="link">Галерея</a>
+<a href="info.html" class="link">Информация</a>
+<a href="contact.html" class="link">Контакты</a>
+</div>
+
+<div id="navbar2">
+	<a href="#" class="ling"><img height="50" width="50" src="images/9.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/99.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/999.png"></a>
+</div>
+
+<div id="mybtn" class="image">
+	
+	<a  href="#">
+	<img width="150" height="150" src="images/1.png">
+    </a>
+
+</div>
+
+<div class="klacni">
+	<p>
+		Клацни по мне
+	</p>
+</div>
+
+<audio id="myaudio">
+  <source src="music/5.mp3"> 
+</audio>
+
+<script type="text/javascript">
+	document.getElementById("mybtn").onclick = function()
+    {
+var myaudio = document.getElementById("myaudio"); if(myaudio.paused == true)
+
+     {
+
+        document.getElementById("myaudio").play();
+      }
+
+      else if (myaudio.paused == false)
+
+      {
+
+        document.getElementById("myaudio").pause();
+      }
+    }
+</script>
+
+<div align="center" class="ngod">
+	<p>
+		Happy New Year!
+    </p>
+</div>
+
+</body>
+</html>

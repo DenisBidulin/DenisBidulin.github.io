@@ -1,0 +1,104 @@
+html { overflow-x: hidden; }
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Amsterdam, sans-serif;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#navbar
+{
+	padding: 30px 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #610000;
+	text-align: center;
+	box-shadow:  0px 4px 9px #000000;
+
+}
+
+a:hover
+{
+color: red;
+}
+
+.image
+{
+	 position: relative;
+	top : 125px;
+	left: 820px;
+	height: 150px;
+	width: 150px;
+}
+.image img 
+{
+ -moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+ }
+
+.image img:hover
+{
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+ -moz-transform: rotate(50deg); 
+ -ms-transform: rotate(50deg); 
+ -webkit-transform: rotate(50deg); 
+ -o-transform: rotate(50deg); 
+ transform: rotate(50deg);
+}
+
+.klacni{
+	position: absolute;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: Amsterdam, sans-serif;
+    left: 883px;
+    top: 281px;
+}
+
+.ngod{
+	font-family: Amsterdam, sans-serif;
+	color: #FFFFFF;
+	font-size: 220px;
+	top: 200px;
+}
+#navbar2
+{
+	padding: 25px 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #610000;
+	text-align: center;
+	box-shadow:  0px -2px 10px #000000;
+}
+
+.ling
+{
+width: 50px;
+height: 50px;
+}
+
+.ling img
+{
+ -moz-transition: all 0.7s ease-out;
+ -o-transition: all 0.7s ease-out;
+ -webkit-transition: all 0.7s ease-out;
+}
+
+.ling img:hover
+{
+ -webkit-transform: scale(0.85);
+ -moz-transform: scale(0.85);
+ -o-transform: scale(0.85);
+ box-shadow: 0px 2px 5px #000000;
+}

@@ -1,0 +1,152 @@
+html { overflow-x: hidden; }
+
+a 
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Amsterdam, sans-serif;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#navbar
+{
+	padding: 30px 0;
+	width: 115%;
+    left: -135px;
+    top: 0px;
+	position: absolute;
+	background-color: #610000;
+	text-align: center;
+	box-shadow:  0px 4px 9px #000000;
+
+}
+
+a:hover
+{
+color: red;
+}
+
+.image {
+	height: 420px;
+	cursor:pointer;
+	width: 420px;
+	padding: 20px 20px ;
+   border-width: 0px;
+	}
+.image img:hover{
+outline: 5px solid white; 
+transition: all .2s; 
+}
+
+
+.image img:not(:hover){ 
+outline: 0px solid white; 
+transition: all .2s; 
+}
+
+table{
+	padding-right: 100px;
+	padding-top: 200px;
+}
+
+.btn
+{
+	top : 135px;
+	left: 880px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+}
+.btn img 
+{
+ -moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+ }
+ 
+.btn img:hover
+{
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+ -moz-transform: rotate(50deg); 
+ -ms-transform: rotate(50deg); 
+ -webkit-transform: rotate(50deg); 
+ -o-transform: rotate(50deg); 
+ transform: rotate(50deg);
+}
+#navbar2
+{
+	padding: 20px 0;
+	width: 120%;
+	position: absolute;
+	background-color: #610000;
+	left: -185px;
+	top:2125px;
+	bottom: fixed;
+	text-align: center;
+	box-shadow:  0px -2px 10px #000000;
+}
+
+.ling
+{
+width: 50px;
+height: 50px;
+}
+
+.ling img
+{
+ -moz-transition: all 0.7s ease-out;
+ -o-transition: all 0.7s ease-out;
+ -webkit-transition: all 0.7s ease-out;
+}
+
+.ling img:hover
+{
+ -webkit-transform: scale(0.85);
+ -moz-transform: scale(0.85);
+ -o-transform: scale(0.85);
+ box-shadow: 0px 2px 5px #000000;
+}
+
+.btn_up{
+	position: fixed;
+	bottom: -70px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+		border: 1px solid #610000 ;
+	background: #610000;
+	box-shadow: 0px 2px 10px #000000;
+	z-index: 1;
+	outline: 0!important;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.btn_up:after{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 4px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.btn_up:active{
+	background: #4c0000;
+	border: 1px solid #4c0000;
+}
+
+.btn_up.active{
+	bottom: 25px;
+}

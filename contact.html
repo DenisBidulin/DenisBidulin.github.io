@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Контакты</title>
+	<link rel="shortcut icon" href="images/x1.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="css/styleC.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body bgcolor="#980000">
+
+<div id="navbar">
+	<a href="index.html" class="link">Главная</a>
+	<a href="gallery.html" class="link">Галерея</a>
+	<a href="info.html" class="link">Информация</a>
+	<a href="contact.html" class="link">Контакты</a>
+</div>
+
+<div id="navbar2">
+	<a href="#" class="ling"><img height="50" width="50" src="images/9.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/99.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/999.png"></a>
+</div>
+
+<div id="mybtn" class="btn">
+    <a  href="#">
+    <img width="50" height="50" src="images/1.png">
+    </a>
+</div>
+
+<div align="center" class="all">
+
+<div class="gps"><img src="images/gps.png" width="75" height="75"></div>
+
+<div class="tel"><img src="images/tel.png" width="75" height="75"></div>
+
+<div class="pop">
+<div class="content">
+
+	<p>
+		Горячая линия
+	</p>
+
+    <p>
+    	Ежедневно с 9 до 21 часа
+    </p>
+
+    <p>
+    	Звонок бесплатный по Украине
+    </p>
+
+</div>
+</div>
+
+<div class="pop1">
+<div class="content1">
+
+	<p>
+		Улица Владимира Винниченка,
+	</p>
+
+    <p>
+    	9, Киев, 02000
+    </p>
+
+    <p>
+    	Главный офис
+    </p>
+
+</div>
+</div>
+</div>
+
+<div class="nomer"><p>
+	+38(095)145-05-05
+</p></div>
+
+<div class="hr"><hr></div>
+
+<div class="vid">
+	<video width="1000" height="770" src="video/Night before christmas.mp4" controls></video>
+</div>
+
+<div class="srp">
+	<p>
+		Да будет мультик!
+	</p>
+</div>
+
+<audio id="myaudio">
+  <source src="music/dean-martin_-_let-it-snow-remastered.mp3"> 
+</audio>
+
+<script type="text/javascript">
+	document.getElementById("mybtn").onclick = function()
+    {
+var myaudio = document.getElementById("myaudio"); if(myaudio.paused == true)
+
+      {
+
+        document.getElementById("myaudio").play();
+      }
+
+
+      else if (myaudio.paused == false)
+
+      {
+
+        document.getElementById("myaudio").pause();
+      }
+    }
+</script>
+
+</body>
+</html>

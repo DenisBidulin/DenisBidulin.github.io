@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Галерея</title>
+	<link rel="shortcut icon" href="images/x1.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="css/styleG.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jsG.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body bgcolor="#980000">
+
+<div id="navbar">
+	<a href="index.html" class="link">Главная</a>
+	<a href="gallery.html" class="link">Галерея</a>
+	<a href="info.html" class="link">Информация</a>
+	<a href="contact.html" class="link">Контакты</a>
+</div>
+
+<div id="navbar2">
+	<a href="#" class="ling"><img height="50" width="50" src="images/9.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/99.png"></a>
+	<a href="#" class="ling"><img height="50" width="50" src="images/999.png"></a>
+	</div>
+
+<div id="mybtn" class="btn">
+	
+	<a  href="#">
+	<img width="50" height="50" src="images/1.png">
+    </a>
+</div>
+
+<audio id="myaudio">
+  <source src="music/marry_christmas.mp3"> 
+</audio>
+
+<table align="center">
+
+<tr align="center">
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/1.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/6.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/12.jpg"></a></div></td>
+		</tr>
+
+	<tr align="center">
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/7.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/9.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/3.jpg"></a></div></td>
+		</tr>
+
+<tr align="center">
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/2.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/4.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/5.jpg"></a></div></td>
+		</tr>
+
+		<tr align="center">
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/13.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/14.jpg"></a></div></td>
+			<td><div class="image"><a href="#"><img width="420" height="420" src="images/15.jpg"></a></div></td>
+		</tr>
+
+</table>
+<script type="text/javascript">
+document.getElementById("mybtn").onclick = function()
+    {
+var myaudio = document.getElementById("myaudio"); if(myaudio.paused == true)
+
+      {
+
+        document.getElementById("myaudio").play();
+      }
+
+
+      else if (myaudio.paused == false)
+
+      {
+
+        document.getElementById("myaudio").pause();
+      }
+    }
+    </script>
+</body>
+</html>
